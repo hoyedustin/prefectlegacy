@@ -20,8 +20,8 @@ def get_api_token():
     body = {'api_name': 'clm'}
     
     headers = {
-        'USER': 'dustinh@legacyg.com',
-        'PASSWORD': 'Index@2043!'
+        'USER': 'removed for security',
+        'PASSWORD': 'removed for security'
     }
     
     response = requests.get(GetTokenURL, headers=headers, json=body)
