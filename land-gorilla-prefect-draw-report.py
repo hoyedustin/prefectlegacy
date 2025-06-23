@@ -24,9 +24,9 @@ postmark_server_token = Secret.load("postmark-token")
 def prefect_connect():
 
  
-    token = "pnu_2ouAZpMBYyIBpUTWrQhSd505kZjyPV10dtnu"
-    account_id= "be0b832f-4c96-44af-8996-6408d20903a1"
-    workspace_id="70b125ce-298b-4133-83d1-21a2d99ae339"
+    token = "removed for security"
+    account_id= "removed for security"
+    workspace_id="removed for security"
     
     url = f"https://api.prefect.cloud/api/accounts/{account_id}/workspaces/{workspace_id}/ui/flow_runs/history"
     
@@ -94,9 +94,9 @@ def prefect_connect():
     
     for id in id.astype(str):
     
-        token = "pnu_2ouAZpMBYyIBpUTWrQhSd505kZjyPV10dtnu"
-        account_id= "be0b832f-4c96-44af-8996-6408d20903a1"
-        workspace_id="70b125ce-298b-4133-83d1-21a2d99ae339"
+        token = "removed for security"
+        account_id= "removed for security"
+        workspace_id="removed for security"
     
         url = f"https://api.prefect.cloud/api/accounts/{account_id}/workspaces/{workspace_id}/flow_runs/{id}"
     
@@ -151,8 +151,8 @@ def prefect_cleaning(prefect_df):
 def lg_auth():
 
     GetTokenURL = "https://clmapi.landgorilla.com/api/token"
-    USER = "dustinh@legacyg.com"
-    PW = "Index@2043!"
+    USER = "removed for security"
+    PW = "removed for security"
     body = {'api_name': 'clm'}
     headers = {
     'USER': USER,
