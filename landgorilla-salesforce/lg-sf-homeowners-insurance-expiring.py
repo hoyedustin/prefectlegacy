@@ -20,8 +20,8 @@ sf = Salesforce(username=dustin_sf_un.get(), password=dustin_sf_pw.get(), securi
 @task
 def authenticate():
   GetTokenURL = "https://clmapi.landgorilla.com/api/token"
-  USER = "dustinh@legacyg.com"
-  PW = "Index@2043!"
+  USER = "removed for security"
+  PW = "removed for security"
   body = {'api_name': 'clm'}
   headers = {
     'USER': USER,
