@@ -11,7 +11,6 @@ lg_un = Secret.load("lg-api-un")
 postmark_server_token = Secret.load("postmark-token")
 #testing under this line for creation in SF
 #from simple_salesforce import Salesforce
-#sf = Salesforce(username='dustinh@legacyg.com', password='Rain@2022!', security_token='EBfI0CSZsgQzkzGC1i2Pgn0AL',instance= 'https://legacycapitalgroup.my.salesforce.com/' )
 
 
 # Task 1: Authentication
