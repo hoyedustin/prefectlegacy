@@ -24,8 +24,8 @@ from authenticator.land_gorilla_authentication import Authenticator
 @task
 def authenticate():
   GetTokenURL = "https://clmapi.landgorilla.com/api/token"
-  USER = "dustinh@legacyg.com"
-  PW = "Index@2043!"
+  USER = "removed for security"
+  PW = "removed for security"
   body = {'api_name': 'clm'}
   headers = {
     'USER': USER,
