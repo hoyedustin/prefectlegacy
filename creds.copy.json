@@ -1,0 +1,20 @@
+{
+  "secrets": {
+    "snowflake": {
+      "account": "AYB56057",
+      "username": "kcbigring",
+      "warehouse": "LEGACY_DEMO",
+      "role": "<role>",
+      "database": "LEGACY_DEMO_RDA",
+      "schema": "KC_TEST",
+      "password": "XXXXXXXXX"
+    },
+    "rsa": {
+      "passphrase": "XXXXXXXXX"
+    },
+    "paychex": {
+      "client_id": "",
+      "client_secret": ""
+    }
+  }
+}
