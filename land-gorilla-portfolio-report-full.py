@@ -17,8 +17,8 @@ gcp_cloud_storage_bucket_block = GcsBucket.load("gcs-test-block")
 @task
 def authenticate():
   GetTokenURL = "https://clmapi.landgorilla.com/api/token"
-  USER = "dustinh@legacyg.com"
-  PW = "Index@2043!"
+  USER = "removed for security"
+  PW = "removed for security"
   body = {'api_name': 'clm'}
   headers = {
     'USER': USER,
